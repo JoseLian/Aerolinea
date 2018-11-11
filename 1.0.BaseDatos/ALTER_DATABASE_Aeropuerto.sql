@@ -17,10 +17,10 @@ ALTER TABLE dbo.Aeropuerto
   ADD FlagEliminado BIT
 GO
 
-UPDATE dbo.Avion SET FlagEliminado = 1
+UPDATE dbo.Avion SET FlagEliminado = 0
 GO
 
-UPDATE dbo.Aeropuerto SET FlagEliminado = 1
+UPDATE dbo.Aeropuerto SET FlagEliminado = 0
 GO
 
 SET NOCOUNT OFF
